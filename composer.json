@@ -1,0 +1,33 @@
+{
+    "name": "cyberkavach/website",
+    "description": "CyberKavach Website v2.0 - Cybersecurity Community Portal",
+    "type": "project",
+    "require": {
+        "php": "^8.3",
+        "vlucas/phpdotenv": "^5.6",
+        "monolog/monolog": "^3.5",
+        "phpmailer/phpmailer": "^6.9",
+        "firebase/php-jwt": "^6.10",
+        "tecnickcom/tcpdf": "^6.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "CyberKavach Developer",
+            "email": "dev@cyberkavachclub.charusat.ac.in"
+        }
+    ],
+    "minimum-stability": "stable",
+    "config": {
+        "optimize-autoloader": true,
+        "policy": {
+            "advisories": {
+                "block": false
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+# Environment Variables (CRITICAL: Contains JWT_SECRET)
+.env
+
+# Database Files (CRITICAL: Contains live user hashes, logs, and sensitive data)
+database/cyberkavach.sqlite
+database/cyberkavach.sqlite-journal
+database/*.db
+database/*.sqlite3
+
+# Composer Dependencies (Should be generated via `composer install`)
+vendor/
+
+# User Uploaded Data (Instance specific media and templates)
+public/uploads/templates/*
+public/uploads/gallery/*
+public/uploads/vault/*
+!public/uploads/templates/.gitkeep
+!public/uploads/gallery/.gitkeep
+!public/uploads/vault/.gitkeep
+
+# IDE and AI Generated Artifacts
+.vscode/
+.idea/
+.gemini/
+implementation_plan.md
+task.md
+walkthrough.md
+scratch/
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
